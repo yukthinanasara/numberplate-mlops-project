@@ -1,0 +1,16 @@
+mlruns/
+augmentation/
+NIBM/
+Non-NIBM/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pkl
+*.json
+*.csv
+*.h5
+
+# allow model files
+!plate_vehicle_resnet_aug_model.h5
+!plate_encoder.pkl
+!vehicle_encoder.pkl
